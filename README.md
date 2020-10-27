@@ -3,22 +3,22 @@
 Obviously not a dropbox replacement but a good foundation. This app was mainly built to get a good grasp on Livewire and what it can do.
 
 <p align="center">
-  <img align="center" src="https://raw.githubusercontent.com/keisto/bitbox/main/public/images/folders.png">
+  <img align="center" src="https://github.com/keisto/bitbox/blob/production/public/images/folders.png?raw=true">
 </p>
 <p align="center">
-  <img align="center" src="https://raw.githubusercontent.com/keisto/bitbox/main/public/images/rename.png">
+  <img align="center" src="https://github.com/keisto/bitbox/blob/production/public/images/rename.png?raw=true">
 </p>
 
 ### File Browser functionality built using [Livewire](https://laravel-livewire.com) and [AlpineJs](https://github.com/alpinejs/alpine)
 
 <p align="center">
-  <img align="center" src="https://raw.githubusercontent.com/keisto/bitbox/main/public/images/search.png">
+  <img align="center" src="https://github.com/keisto/bitbox/blob/production/public/images/search.png?raw=true">
 </p>
 
 ### Search using [TNTSearch](https://github.com/teamtnt/tntsearch)
 
 <p align="center">
-  <img align="center" src="https://raw.githubusercontent.com/keisto/bitbox/main/public/images/uploading.png">
+  <img align="center" src="https://github.com/keisto/bitbox/blob/production/public/images/uploading.png?raw=true">
 </p>
 
 ### Uploading using [FilePond](https://github.com/pqina/filepond)
@@ -29,9 +29,9 @@ Obviously not a dropbox replacement but a good foundation. This app was mainly b
 
 You'll need to run:
 
-- `composer install`
-- `npm install`
-- `php artisan key:generate`
+-   `composer install`
+-   `npm install`
+-   `php artisan key:generate`
 
 Copy the `.env.example` and rename `.env`
 Set up the database on your local machine
@@ -44,8 +44,8 @@ DB_PASSWORD=
 
 Then run:
 
-- `php artisan migrate`
-- `php artisan serve`
+-   `php artisan migrate`
+-   `php artisan serve`
 
 Should be able to view @ `localhost:8000`
 
